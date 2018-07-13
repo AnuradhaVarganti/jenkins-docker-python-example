@@ -2,7 +2,7 @@ node {
     
   stage 'Checkout'
 
-  git 'https://github.com/Cox-Automotive/jenkins-docker-python-example.git'
+  git 'git@github.com:AnuradhaVarganti/jenkins-docker-python-example.git'
         
   stage 'Package Docker image'
 
